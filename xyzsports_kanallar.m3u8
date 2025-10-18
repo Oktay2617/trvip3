@@ -1,20 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Mainz - Bayer Leverkusen - 16:30" group-title="Maç Yayınları",Mainz - Bayer Leverkusen - 16:30
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/tivibu-spor-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Leipzig - Hamburg - 16:30" group-title="Maç Yayınları",Leipzig - Hamburg - 16:30
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/tivibu-spor-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Wolfsburg - Stuttgart - 16:30" group-title="Maç Yayınları",Wolfsburg - Stuttgart - 16:30
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/tivibu-spor-4/playlist.m3u8
-#EXTINF:-1 tvg-name="Beşiktaş - Gençlerbirliği - 17:00" group-title="Maç Yayınları",Beşiktaş - Gençlerbirliği - 17:00
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/bein-sports-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Ç.Rizespor - Trabzonspor - 17:00" group-title="Maç Yayınları",Ç.Rizespor - Trabzonspor - 17:00
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/bein-sports-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Brighton - Newcastle - 17:00" group-title="Maç Yayınları",Brighton - Newcastle - 17:00
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/bein-sports-4/playlist.m3u8
-#EXTINF:-1 tvg-name="Crystal Palace - Bournemouth - 17:00" group-title="Maç Yayınları",Crystal Palace - Bournemouth - 17:00
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/bein-sports-max-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Manchester City - Everton - 17:00" group-title="Maç Yayınları",Manchester City - Everton - 17:00
-https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/bein-sports-3/playlist.m3u8
 #EXTINF:-1 tvg-name="Barcelona - Girona - 17:15" group-title="Maç Yayınları",Barcelona - Girona - 17:15
 https://df16ea90s1u1080.00b0c0cc4ac278f4.live/live/s-sport/playlist.m3u8
 #EXTINF:-1 tvg-name="Torino - Napoli - 19:00" group-title="Maç Yayınları",Torino - Napoli - 19:00
