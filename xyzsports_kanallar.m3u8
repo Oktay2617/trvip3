@@ -1,18 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Villarreal - Real Betis - 19:30" group-title="Maç Yayınları",Villarreal - Real Betis - 19:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
-#EXTINF:-1 tvg-name="Bayern Münih - B.Dortmund - 19:30" group-title="Maç Yayınları",Bayern Münih - B.Dortmund - 19:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Fulham - Arsenal - 19:30" group-title="Maç Yayınları",Fulham - Arsenal - 19:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-3/playlist.m3u8
-#EXTINF:-1 tvg-name="PSV - G.A. Eagles - 19:45" group-title="Maç Yayınları",PSV - G.A. Eagles - 19:45
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Utrecht - Volendam - 19:45" group-title="Maç Yayınları",Utrecht - Volendam - 19:45
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-4/playlist.m3u8
-#EXTINF:-1 tvg-name="Rams Başakşehir - Galatasaray - 20:00" group-title="Maç Yayınları",Rams Başakşehir - Galatasaray - 20:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Angers - Monaco - 20:00" group-title="Maç Yayınları",Angers - Monaco - 20:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-2/playlist.m3u8
 #EXTINF:-1 tvg-name="St. Etienne - Le Mans - 21:00" group-title="Maç Yayınları",St. Etienne - Le Mans - 21:00
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-5/playlist.m3u8
 #EXTINF:-1 tvg-name="Bochum - Hertha Berlin - 21:30" group-title="Maç Yayınları",Bochum - Hertha Berlin - 21:30
