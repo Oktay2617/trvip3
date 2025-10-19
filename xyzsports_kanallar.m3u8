@@ -1,12 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Kayserispor - Samsunspor - 14:30" group-title="Maç Yayınları",Kayserispor - Samsunspor - 14:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Darmstadt 98 - Magdeburg - 14:30" group-title="Maç Yayınları",Darmstadt 98 - Magdeburg - 14:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Elversberg - Greuther Fürth - 14:30" group-title="Maç Yayınları",Elversberg - Greuther Fürth - 14:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Elche - Athletic Bilbao - 15:00" group-title="Maç Yayınları",Elche - Athletic Bilbao - 15:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
 #EXTINF:-1 tvg-name="Lens - Paris FC - 16:00" group-title="Maç Yayınları",Lens - Paris FC - 16:00
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-4/playlist.m3u8
 #EXTINF:-1 tvg-name="Cagliari - Bologna - 16:00" group-title="Maç Yayınları",Cagliari - Bologna - 16:00
