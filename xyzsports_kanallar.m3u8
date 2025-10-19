@@ -1,14 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Rennes - Auxerre - 18:15" group-title="Maç Yayınları",Rennes - Auxerre - 18:15
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-4/playlist.m3u8
-#EXTINF:-1 tvg-name="Toulouse - Metz - 18:15" group-title="Maç Yayınları",Toulouse - Metz - 18:15
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-max-2/playlist.m3u8
-#EXTINF:-1 tvg-name="St.Pauli - Hoffenheim - 18:30" group-title="Maç Yayınları",St.Pauli - Hoffenheim - 18:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Liverpool - Manchester Utd - 18:30" group-title="Maç Yayınları",Liverpool - Manchester Utd - 18:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Atalanta - Lazio - 19:00" group-title="Maç Yayınları",Atalanta - Lazio - 19:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport-2/playlist.m3u8
 #EXTINF:-1 tvg-name="Levante - Rayo Vallecano - 19:30" group-title="Maç Yayınları",Levante - Rayo Vallecano - 19:30
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
 #EXTINF:-1 tvg-name="Fenerbahçe - Fatih Karagümrük - 20:00" group-title="Maç Yayınları",Fenerbahçe - Fatih Karagümrük - 20:00
