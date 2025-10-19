@@ -1,8 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="Levante - Rayo Vallecano - 19:30" group-title="Maç Yayınları",Levante - Rayo Vallecano - 19:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
-#EXTINF:-1 tvg-name="Fenerbahçe - Fatih Karagümrük - 20:00" group-title="Maç Yayınları",Fenerbahçe - Fatih Karagümrük - 20:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-1/playlist.m3u8
 #EXTINF:-1 tvg-name="Nantes - Lille - 21:45" group-title="Maç Yayınları",Nantes - Lille - 21:45
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-2/playlist.m3u8
 #EXTINF:-1 tvg-name="Milan - Fiorentina - 21:45" group-title="Maç Yayınları",Milan - Fiorentina - 21:45
