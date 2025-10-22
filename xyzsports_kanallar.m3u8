@@ -1,4 +1,8 @@
 #EXTM3U
+#EXT-X-USER-AGENT:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+#EXT-X-REFERER:https://main.uxsyplayer7d716e84ac.click/
+#EXT-X-ORIGIN:https://main.uxsyplayer7d716e84ac.click
+
 #EXTINF:-1 tvg-name="Galatasaray - Bodo Glimt - 19:45" group-title="Maç Yayınları",Galatasaray - Bodo Glimt - 19:45
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/trt-spor/playlist.m3u8
 #EXTINF:-1 tvg-name="Konyaspor - Beşiktaş - 20:00" group-title="Maç Yayınları",Konyaspor - Beşiktaş - 20:00
