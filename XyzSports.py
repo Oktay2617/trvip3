@@ -7,6 +7,10 @@ from playwright.sync_api import sync_playwright, Error as PlaywrightError, Timeo
 # Güncel adresi bulmak için kullanılacak portal adresi
 PORTAL_DOMAIN = "https://www.selcuksportshd.is/"
 
+# --- YENİ: Global User-Agent (selcuk.py'den kopyalandı) ---
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"
+
+
 # --- GÜNCELLENEN FONKSİYON: GÜNCEL XYZ DOMAIN'İ BULMA ---
 def find_working_domain(page):
     """
@@ -72,19 +76,17 @@ def get_channel_group(channel_name):
 
     return "Maç Yayınları" # Kalanlar maç yayınıdır
 
-# --- DEĞİŞİKLİK YOK: KANAL LİSTESİ KAZIMA ---
-# XyzSports'un yapısı Selçuk ile aynı olduğu için bu fonksiyon da aynı
+# --- GÜNCELLENDİ: KANAL LİSTESİ KAZIMA (Origin eklendi) ---
 def scrape_channel_links(page, domain_to_scrape):
     """
     XyzSports ana sayfasını ziyaret eder ve tüm kanalları
-    isim, URL ve grup bilgisiyle birlikte toplar.
+    isim, URL, grup ve GEREKLİ REFERER BİLGİSİ (origin) ile toplar.
     """
     print(f"\n📡 Kanallar {domain_to_scrape} adresinden çekiliyor...")
     channels = []
     try:
         page.goto(domain_to_scrape, timeout=25000, wait_until='domcontentloaded')
         
-        # 'a[data-url]' seçicisi XyzSports için de geçerli
         link_elements = page.query_selector_all("a[data-url]")
         
         if not link_elements:
@@ -93,7 +95,6 @@ def scrape_channel_links(page, domain_to_scrape):
             
         for link in link_elements:
             player_url = link.get_attribute('data-url')
-            # 'div.name' seçicisi XyzSports için de geçerli
             name_element = link.query_selector('div.name')
             
             if name_element and player_url:
@@ -103,6 +104,18 @@ def scrape_channel_links(page, domain_to_scrape):
                     base_domain = domain_to_scrape.rstrip('/')
                     player_url = f"{base_domain}{player_url}"
                 
+                # --- YENİ: Origin (Referer) bilgisini al (selcuk.py'den kopyalandı) ---
+                try:
+                    parsed_player_url = urlparse(player_url)
+                    player_origin = f"{parsed_player_url.scheme}://{parsed_player_url.netloc}"
+                except Exception:
+                    player_origin = None 
+                
+                # Origin alamazsak bu kanalı atla
+                if not player_origin:
+                    continue 
+                # --- BİTTİ ---
+
                 # Kanal adını ve saatini birleştirelim (eğer saat varsa)
                 time_element = link.query_selector('time.time')
                 if time_element:
@@ -110,7 +123,6 @@ def scrape_channel_links(page, domain_to_scrape):
                     if time_str != "7/24":
                         channel_name = f"{channel_name} - {time_str}"
                     else:
-                        # 7/24 kanallarının adını temizle (örn: "Bein Sports 1 7/24")
                         channel_name = channel_name.replace(time_str, "").strip()
 
                 group_name = get_channel_group(channel_name)
@@ -118,7 +130,8 @@ def scrape_channel_links(page, domain_to_scrape):
                 channels.append({
                     'name': channel_name,
                     'url': player_url,
-                    'group': group_name
+                    'group': group_name,
+                    'origin': player_origin # <- YENİ EKLENDİ
                 })
 
         print(f"✅ {len(channels)} adet potansiyel kanal linki bulundu ve gruplandırıldı.")
@@ -129,7 +142,6 @@ def scrape_channel_links(page, domain_to_scrape):
         return []
 
 # --- DEĞİŞİKLİK YOK: M3U8 ÇIKARMA ---
-# Oynatıcı sayfası aynı olduğu için bu fonksiyon da aynı
 def extract_m3u8_from_page(page, player_url):
     """
     Oynatıcı sayfasından M3U8 linkini doğrudan oluşturur.
@@ -157,7 +169,7 @@ def extract_m3u8_from_page(page, player_url):
         print(" -> ❌ Sayfa yüklenirken hata oluştu.", end="")
         return None
 
-# --- GÜNCELLENEN MAIN FONKSİYONU ---
+# --- GÜNCELLENEN MAIN FONKSİYONU (Başlıklar eklendi) ---
 def main():
     with sync_playwright() as p:
         print("🚀 Playwright ile XyzSports M3U8 Kanal İndirici Başlatılıyor...")
@@ -189,6 +201,19 @@ def main():
         output_filename = "xyzsports_kanallar.m3u8"
         print(f"\n📺 {len(channels)} kanal için M3U8 linkleri işleniyor...")
         created = 0
+
+        # --- YENİ EKLENEN KISIM: GLOBAL BAŞLIKLARI AYARLA (selcuk.py'den kopyalandı) ---
+        # Tüm kanallar aynı kaynağı kullandığı için ilk kanaldan bilgiyi al
+        player_origin_host = channels[0]['origin']
+        player_referer = player_origin_host + '/' # Sonuna / ekle
+        
+        m3u_header_lines = [
+            "#EXTM3U",
+            f"#EXT-X-USER-AGENT:{USER_AGENT}",
+            f"#EXT-X-REFERER:{player_referer}",
+            f"#EXT-X-ORIGIN:{player_origin_host}"
+        ]
+        # --- BİTTİ ---
         
         for i, channel_info in enumerate(channels, 1):
             channel_name = channel_info['name']
@@ -210,9 +235,12 @@ def main():
         browser.close()
 
         if created > 0:
-            header = "#EXTM3U"
+            # --- DEĞİŞTİ: Dosyaya yazma mantığı (selcuk.py'den kopyalandı) ---
             with open(output_filename, "w", encoding="utf-8") as f:
-                f.write(header + "\n") 
+                # Önce global başlıkları yaz
+                f.write("\n".join(m3u_header_lines))
+                f.write("\n\n") # Kanallardan önce bir boşluk bırak
+                # Sonra kanal listesini yaz
                 f.write("\n".join(m3u_content))
             print(f"\n\n📂 {created} kanal başarıyla '{output_filename}' dosyasına kaydedildi.")
         else:
