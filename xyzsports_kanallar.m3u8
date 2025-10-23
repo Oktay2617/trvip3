@@ -5,6 +5,8 @@
 
 #EXTINF:-1 tvg-name="Universidad de Chile - Lanus - 01:00" group-title="Maç Yayınları",Universidad de Chile - Lanus - 01:00
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 tvg-name="Schalke 04 - Darmstadt 98 - 19:30" group-title="Maç Yayınları",Schalke 04 - Darmstadt 98 - 19:30
+https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-2/playlist.m3u8
 #EXTINF:-1 tvg-name="Greuther Fürth - Karlsruhe - 19:30" group-title="Maç Yayınları",Greuther Fürth - Karlsruhe - 19:30
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-3/playlist.m3u8
 #EXTINF:-1 tvg-name="Fatih Karagümrük - Kayserispor - 20:00" group-title="Maç Yayınları",Fatih Karagümrük - Kayserispor - 20:00
