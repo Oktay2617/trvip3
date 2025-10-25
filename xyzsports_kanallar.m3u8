@@ -3,14 +3,6 @@
 #EXT-X-REFERER:https://main.uxsyplayer7d716e84ac.click/
 #EXT-X-ORIGIN:https://main.uxsyplayer7d716e84ac.click
 
-#EXTINF:-1 tvg-name="Adana Demirspor - Vanspor - 13:30" group-title="Maç Yayınları",Adana Demirspor - Vanspor - 13:30
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/bein-sports-max-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Arminia Bielefeld - Elversberg - 14:00" group-title="Maç Yayınları",Arminia Bielefeld - Elversberg - 14:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Dynamo Dresden - Paderborn - 14:00" group-title="Maç Yayınları",Dynamo Dresden - Paderborn - 14:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Holstein Kiel - Bochum - 14:00" group-title="Maç Yayınları",Holstein Kiel - Bochum - 14:00
-https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/tivibu-spor-4/playlist.m3u8
 #EXTINF:-1 tvg-name="Girona - Real Oviedo - 15:00" group-title="Maç Yayınları",Girona - Real Oviedo - 15:00
 https://df16ea90s1u1080.739ce0e51c3d11ca.live/live/s-sport/playlist.m3u8
 #EXTINF:-1 tvg-name="Montpellier - Nancy - 15:00" group-title="Maç Yayınları",Montpellier - Nancy - 15:00
