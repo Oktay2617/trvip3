@@ -3,18 +3,68 @@
 #EXT-X-REFERER:https://main.uxsyplayer7d716e84ac.click/
 #EXT-X-ORIGIN:https://main.uxsyplayer7d716e84ac.click
 
-#EXTINF:-1 tvg-name="Hertha Berlin - Fortuna Düsseldorf - 21:30" group-title="Maç Yayınları",Hertha Berlin - Fortuna Düsseldorf - 21:30
-https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Cremonese - Atalanta - 21:45" group-title="Maç Yayınları",Cremonese - Atalanta - 21:45
+#EXTINF:-1 tvg-name="Twente - Ajax - 14:15" group-title="Maç Yayınları",Twente - Ajax - 14:15
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Antalyaspor - Rams Başakşehir - 14:30" group-title="Maç Yayınları",Antalyaspor - Rams Başakşehir - 14:30
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Torino - Genoa - 14:30" group-title="Maç Yayınları",Torino - Genoa - 14:30
 https://df16ea90s1u1080.dc128087447277db.live/live/s-sport-2/playlist.m3u8
-#EXTINF:-1 tvg-name="Brentford - Liverpool - 22:00" group-title="Maç Yayınları",Brentford - Liverpool - 22:00
-https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-3/playlist.m3u8
-#EXTINF:-1 tvg-name="Valencia - Villarreal - 22:00" group-title="Maç Yayınları",Valencia - Villarreal - 22:00
-https://df16ea90s1u1080.dc128087447277db.live/live/s-sport/playlist.m3u8
-#EXTINF:-1 tvg-name="Lens - Marsilya - 22:05" group-title="Maç Yayınları",Lens - Marsilya - 22:05
-https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-max-1/playlist.m3u8
-#EXTINF:-1 tvg-name="Benfica - Arouca - 22:30" group-title="Maç Yayınları",Benfica - Arouca - 22:30
+#EXTINF:-1 tvg-name="Kaiserslautern - Nürnberg - 15:30" group-title="Maç Yayınları",Kaiserslautern - Nürnberg - 15:30
 https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-3/playlist.m3u8
+#EXTINF:-1 tvg-name="Çorum FK - Boluspor - 16:00" group-title="Maç Yayınları",Çorum FK - Boluspor - 16:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-max-1/playlist.m3u8
+#EXTINF:-1 tvg-name="Mallorca - Levante - 16:00" group-title="Maç Yayınları",Mallorca - Levante - 16:00
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 tvg-name="Galatasaray - Göztepe - 17:00" group-title="Maç Yayınları",Galatasaray - Göztepe - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-1/playlist.m3u8
+#EXTINF:-1 tvg-name="Gençlerbirliği - Konyaspor - 17:00" group-title="Maç Yayınları",Gençlerbirliği - Konyaspor - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Sassuolo - Roma - 17:00" group-title="Maç Yayınları",Sassuolo - Roma - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Verona - Cagliari - 17:00" group-title="Maç Yayınları",Verona - Cagliari - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-4/playlist.m3u8
+#EXTINF:-1 tvg-name="Arsenal - Crystal Palace - 17:00" group-title="Maç Yayınları",Arsenal - Crystal Palace - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-3/playlist.m3u8
+#EXTINF:-1 tvg-name="Aston Villa - Manchester City - 17:00" group-title="Maç Yayınları",Aston Villa - Manchester City - 17:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-4/playlist.m3u8
+#EXTINF:-1 tvg-name="Bayer Leverkusen - Freiburg - 17:30" group-title="Maç Yayınları",Bayer Leverkusen - Freiburg - 17:30
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Real Madrid - Barcelona - 18:15" group-title="Maç Yayınları",Real Madrid - Barcelona - 18:15
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 tvg-name="AZ Alkmaar - Utrecht - 18:45" group-title="Maç Yayınları",AZ Alkmaar - Utrecht - 18:45
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-3/playlist.m3u8
+#EXTINF:-1 tvg-name="Rennes - Nice - 19:15" group-title="Maç Yayınları",Rennes - Nice - 19:15
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-4/playlist.m3u8
+#EXTINF:-1 tvg-name="Stuttgart - Mainz - 19:30" group-title="Maç Yayınları",Stuttgart - Mainz - 19:30
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-1/playlist.m3u8
+#EXTINF:-1 tvg-name="Everton - Tottenham - 19:30" group-title="Maç Yayınları",Everton - Tottenham - 19:30
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-3/playlist.m3u8
+#EXTINF:-1 tvg-name="Kasımpaşa - Beşiktaş - 20:00" group-title="Maç Yayınları",Kasımpaşa - Beşiktaş - 20:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-1/playlist.m3u8
+#EXTINF:-1 tvg-name="Fiorentina - Bologna - 20:00" group-title="Maç Yayınları",Fiorentina - Bologna - 20:00
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Osasuna - Celta Vigo - 20:30" group-title="Maç Yayınları",Osasuna - Celta Vigo - 20:30
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 tvg-name="Tondela - Sporting Lisbon - 21:00" group-title="Maç Yayınları",Tondela - Sporting Lisbon - 21:00
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-3/playlist.m3u8
+#EXTINF:-1 tvg-name="GA Eagles - Excelsior - 22:00" group-title="Maç Yayınları",GA Eagles - Excelsior - 22:00
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-4/playlist.m3u8
+#EXTINF:-1 tvg-name="Lyon - Strasbourg - 22:45" group-title="Maç Yayınları",Lyon - Strasbourg - 22:45
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-3/playlist.m3u8
+#EXTINF:-1 tvg-name="Lazio - Juventus - 22:45" group-title="Maç Yayınları",Lazio - Juventus - 22:45
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Rayo Vallecano - Alaves - 23:00" group-title="Maç Yayınları",Rayo Vallecano - Alaves - 23:00
+https://df16ea90s1u1080.dc128087447277db.live/live/s-sport/playlist.m3u8
+#EXTINF:-1 tvg-name="Braga - Casa Pia - 23:30" group-title="Maç Yayınları",Braga - Casa Pia - 23:30
+https://df16ea90s1u1080.dc128087447277db.live/live/tivibu-spor-2/playlist.m3u8
+#EXTINF:-1 tvg-name="Fenerbahçe Beko - Türk Telekom - 13:00" group-title="Maç Yayınları",Fenerbahçe Beko - Türk Telekom - 13:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-5/playlist.m3u8
+#EXTINF:-1 tvg-name="Trabzonspor - Anadolu Efes - 15:30" group-title="Maç Yayınları",Trabzonspor - Anadolu Efes - 15:30
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-5/playlist.m3u8
+#EXTINF:-1 tvg-name="Petkimspor - Mersin Spor - 18:00" group-title="Maç Yayınları",Petkimspor - Mersin Spor - 18:00
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-5/playlist.m3u8
+#EXTINF:-1 tvg-name="Galatasaray MCT Technic - Karşıyaka - 20:30" group-title="Maç Yayınları",Galatasaray MCT Technic - Karşıyaka - 20:30
+https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-5/playlist.m3u8
 #EXTINF:-1 tvg-name="Bein Sports 1" group-title="BeinSports",Bein Sports 1
 https://df16ea90s1u1080.dc128087447277db.live/live/bein-sports-1/playlist.m3u8
 #EXTINF:-1 tvg-name="Bein Sports 2" group-title="BeinSports",Bein Sports 2
